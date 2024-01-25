@@ -1,0 +1,74 @@
+:root {
+	--std-border: solid green 5px;
+}
+
+body {
+	margin: 0;
+	background-image: url("media/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: teal;
+}
+
+button {
+	cursor: pointer;
+}
+
+hr {
+	color: rgba(0, 204, 0, 1);
+}
+
+	#body_main {
+		margin: auto;
+		margin-top: 70px;
+		width: 70%;
+		border: var(--std-border);
+		padding: 10px 30px 50px 30px;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	#index_header {
+		text-align: center;
+	}
+	#index_header p {
+		font-size: 2rem;
+		color: lime;
+	}
+	.file {
+		vertical-align: top;
+		display: inline-block;
+	}
+	.post_head {
+		color: lime;
+	}
+	.post_body {
+		color: white;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 10px;
+	}
+		.subject {
+			font-weight: bold;
+			color: #39ff14;
+		}
+		.name {
+			color: #39ff14;
+		}
+		.poster_id {
+			font-weight: bold;
+			border: 3px;
+			border-radius: 5px;
+			padding: 2px 4px 1px 4px;
+		}
+	.quote {
+		color: #55d02e;
+	}
+	#plant {
+		height: 256px;
+	}
+
+	.flashy_button {
+		background: rgba(45, 226, 230, 1);
+		border: rgba(45, 226, 230, 1);
+		border-radius: 10px;
+	}

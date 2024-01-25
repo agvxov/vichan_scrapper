@@ -1,0 +1,9 @@
+**/__pycache__/
+scrapper/venv
+scrapper/service/scrapper.lock
+vichan_archive.tar.gz
+vichan_archive_data.tar.gz
+db/data.sqlite
+db/data.sqlite.bak
+db/files/*
+db/files.bak
